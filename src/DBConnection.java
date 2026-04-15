@@ -12,8 +12,8 @@ import java.sql.SQLException;
 
 public class DBConnection {
     private static final String URL = "jdbc:postgresql://localhost:5432/Contract_system";
-    private static final String USER_NAME = "your_postgres_username";
-    private static final String PASSWORD = "your_postgres_password";
+    private static final String USER_NAME = "your_postgres_username";   //place your postgres username
+    private static final String PASSWORD = "your_postgres_password";    //place your postgres password
 
     public static Connection getConnection() throws SQLException{
         return DriverManager.getConnection(URL, USER_NAME, PASSWORD);
