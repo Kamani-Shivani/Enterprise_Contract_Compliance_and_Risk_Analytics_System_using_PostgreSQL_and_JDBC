@@ -129,4 +129,93 @@ Implemented using **PostgreSQL Triggers (PL/pgSQL)**:
 
 👉 All database operations were performed using `pgAdmin4`.
 
-### 1. Create Database
+
+## 1. Create Database
+```sql
+CREATE DATABASE Contract_system;
+````
+
+## 2. Execute SQL Script
+
+The script performs:
+
+* Table creation with relationships
+* Constraint enforcement
+* Index creation for optimization
+* Trigger-based automation
+* Stored procedure for risk scoring
+* Analytical view creation
+* Sample data insertion
+
+---
+
+# 🔗 Database Configuration
+
+Update credentials in `DBConnection.java`:
+
+```java
+private static final String USER_NAME = "postgres_username";
+private static final String PASSWORD = "postgres_password";
+```
+
+---
+
+# 🚀 Execution Steps
+
+1. Open project in **IntelliJ IDEA**
+2. Add PostgreSQL JDBC Driver (`postgresql-42.x.x.jar`)
+3. Configure database credentials
+4. Run `Main.java`
+
+---
+
+# 📖 Application Workflow
+
+1. Launch system
+2. Choose operation from menu:
+
+   * High-Risk Contract Analysis
+   * Vendor Performance Analysis
+   * Contract Expiry Monitoring
+   * SLA Violation Analysis
+   * Payment Risk Assessment
+   * Risk Distribution Analytics
+   * High-Risk Vendor Identification
+   * Delay Analysis
+   * Financial Insights
+   * Risk Score Calculation
+3. System executes SQL queries dynamically
+4. Results displayed in console
+
+---
+
+# 🌟 Highlights of the Project
+
+* Strong use of SQL as business logic layer
+* Real-time analytics using Java + JDBC
+* Automated risk detection using Triggers
+* Efficient schema design with normalization
+* Optimized queries using indexes
+* Enterprise-level database architecture
+
+---
+
+# 🏆 Learning Outcomes
+
+* Advanced PostgreSQL development skills
+* Understanding enterprise risk systems
+* Writing triggers & stored procedures
+* JDBC integration with Java
+* Building scalable SQL-based applications
+
+---
+
+# 📑 Submission
+
+* **Prepared by:** Kamani Shivani
+* **Project Title:** Enterprise Contract Compliance and Risk Analytics System using PostgreSQL and JDBC
+* **Type:** SQL Use Case with PostgreSQL and JDBC Integration
+* **Submitted for:** Virtusa Pre-Onboarding Training Assignment
+
+```
+
