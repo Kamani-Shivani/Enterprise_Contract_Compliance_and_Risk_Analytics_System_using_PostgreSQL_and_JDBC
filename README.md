@@ -212,10 +212,10 @@ private static final String PASSWORD = "postgres_password";
 
 # 📑 Submission
 
-* **Prepared by:** Kamani Shivani
-* **Project Title:** Enterprise Contract Compliance and Risk Analytics System using PostgreSQL and JDBC
-* **Type:** SQL Use Case with PostgreSQL and JDBC Integration
-* **Submitted for:** Virtusa Pre-Onboarding Training Assignment
+* `Prepared by:` Kamani Shivani
+* `Project Title:` Enterprise Contract Compliance and Risk Analytics System using PostgreSQL and JDBC
+* `Type:` SQL Use Case with PostgreSQL and JDBC Integration
+* `Submitted for:` Virtusa Pre-Onboarding Training Assignment
 
 ```
 
